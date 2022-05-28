@@ -2,7 +2,7 @@
 
 This is the NestJS MeetUp 2022-CFP repository; NestJS Meetup 2022-CFP is led by the NestJS JapanUsersGroup.
 
-# Participating in the collection
+# Join the Community
 
 - [nestJS Meetup Group](https://nest-jp.connpass.com/)
 
