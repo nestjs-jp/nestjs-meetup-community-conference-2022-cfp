@@ -30,49 +30,6 @@ body:
       placeholder: ここにセッション アブストラクトをご記入ください
     validations:
       required: true
-  - type: textarea
-    id: session-detail
-    attributes:
-      label: セッションについての補足情報 (最大800文字) (任意)
-      description: セッション内容についてタイトルおよびアブストラクトのみで説明しきれない場合、補足情報を800文字以下にて記入してください
-      placeholder: ここにセッションの補足説明をお書きください
-    validations:
-      required: false
-  - type: textarea
-    id: session-detail
-    attributes:
-      label: セッションについての補足情報 (最大800文字) (任意)
-      description: セッション内容についてタイトルおよびアブストラクトのみで説明しきれない場合、補足情報を800文字以下にて記入してください
-      placeholder: ここにセッションの補足説明をお書きください
-    validations:
-      required: false
-  - type: image
-    id: session-speaker-phase
-    attributes:
-      label: 登壇者の所属するスタートアップのフェーズ （必須）
-      options:
-        - Seed
-        - series A
-        - series B
-        - series C
-        - series D 以降
-        - VC / 投資家
-        - その他
-    validations:
-      required: true
-  - type: dropdown
-    id: session-expected-attendee-phase
-    attributes:
-      label: 想定受講者のスタートアップのフェーズ (複数選択可) (必須)
-      multiple: true
-      options:
-        - Seed
-        - series A
-        - series B
-        - series C
-        - series D 以降
-    validations:
-      required: true
   - type: dropdown
     id: session-expected-attendee-roles
     attributes:
