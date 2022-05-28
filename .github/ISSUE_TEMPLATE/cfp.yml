@@ -46,7 +46,7 @@ body:
       placeholder: ここにセッションの補足説明をお書きください
     validations:
       required: false
-  - type: file
+  - type: image
     id: session-speaker-phase
     attributes:
       label: 登壇者の所属するスタートアップのフェーズ （必須）
