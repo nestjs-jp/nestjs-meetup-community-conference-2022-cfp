@@ -1,12 +1,3 @@
----
-name: Issue template
-about: Issues template for communication with participants.
-title: ''
-labels: ''
-assignees: ''
-
----
-
 name: AWS Startup Community Conference 2022　Call for Papers 応募フォーム
 description: AWS Startup Community Conference 2022 Call for Papers へのご応募をご検討頂きありがとうございます。下記のフォームに必要事項をご記入の上、Submitしてください。
 title: "<セッションタイトルを最大40文字程度で記入してください>"
