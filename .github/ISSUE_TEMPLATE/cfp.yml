@@ -1,21 +1,12 @@
-name: AWS Startup Community Conference 2022　Call for Papers 応募フォーム
-description: AWS Startup Community Conference 2022 Call for Papers へのご応募をご検討頂きありがとうございます。下記のフォームに必要事項をご記入の上、Submitしてください。
+name: NestJS meetup ご応募フォーム
+description: NestJS meetup へのご応募をご検討頂きありがとうございます。下記のフォームに必要事項をご記入の上、Submitしてください。
 title: "<セッションタイトルを最大40文字程度で記入してください>"
 labels: [cfp]
 assignees:
-  - sumi-biztech
-  - kzk-maeda
-  - isasenth
+  - naoki-haba
+  - odanado
   - xhiroga
 body:
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: AWS 行動規範 (Code of Conduct) への同意 (必須)
-      description: セッションの応募にはイベント登録規約、および AWS 行動規範 Code of Conduct への同意が必要です
-      options:
-        - label: 私は、[AWS 行動規範 (Code of Conduct)](https://aws.amazon.com/jp/codeofconduct/) を確認し、同意しました
-          required: true
   - type: input
     id: contact
     attributes:
@@ -47,7 +38,15 @@ body:
       placeholder: ここにセッションの補足説明をお書きください
     validations:
       required: false
-  - type: dropdown
+  - type: textarea
+    id: session-detail
+    attributes:
+      label: セッションについての補足情報 (最大800文字) (任意)
+      description: セッション内容についてタイトルおよびアブストラクトのみで説明しきれない場合、補足情報を800文字以下にて記入してください
+      placeholder: ここにセッションの補足説明をお書きください
+    validations:
+      required: false
+  - type: file
     id: session-speaker-phase
     attributes:
       label: 登壇者の所属するスタートアップのフェーズ （必須）
