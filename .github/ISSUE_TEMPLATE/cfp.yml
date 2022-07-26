@@ -16,6 +16,14 @@ body:
       placeholder: ここに Twitter ID をご記入ください
     validations:
       required: true
+  - type: input
+    id: time
+    attributes:
+      label: 発表見込み時間 (必須)
+      description: 発表見込み時間をご入力ください
+      placeholder: 20分
+    validations:
+      required: true
   - type: checkboxes
     id: session-title
     attributes:
